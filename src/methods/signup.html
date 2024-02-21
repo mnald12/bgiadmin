@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="register">
+                <form action="reg.php" method="post">
+                    <h2>REGISTRATION FORM</h2>
+                    <div class="form-group">
+                        <label for="fn">First Name:</label>
+                        <input type="text" id="fn" name="f_name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mn">Middle Name:</label>
+                        <input type="text" id="mn" name="m_name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="ln">Last Name:</label>
+                        <input type="text" id="ln" name="l_name" />
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="text" id="pwd" name="pwd" />
+                    </div>
+                    <div class="btn-center">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="login">
+                <form action="login.php" method="post">
+                    <h2>LOG IN</h2>
+                    <div class="form-group">
+                        <label for="uname">Username:</label>
+                        <input type="text" id="uname" name="uname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="text" id="pwd" name="pwd" />
+                    </div>
+                    <div class="btn-center">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
